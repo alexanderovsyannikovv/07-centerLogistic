@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="./index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="132" height="25" viewBox="0 0 132 25">
+                        <g id="logo" transform="translate(-50 -31)">
+                          <path id="_ionicons_svg_md-locate" d="M44.5,40.036A4.464,4.464,0,1,0,48.964,44.5,4.477,4.477,0,0,0,44.5,40.036ZM55.155,43.31a10.755,10.755,0,0,0-9.465-9.464V32H43.31v1.845a10.755,10.755,0,0,0-9.465,9.464H32V45.69h1.845a10.755,10.755,0,0,0,9.465,9.465V57H45.69V55.155a10.755,10.755,0,0,0,9.465-9.465H57V43.31ZM44.5,52.833A8.333,8.333,0,1,1,52.833,44.5,8.358,8.358,0,0,1,44.5,52.833Z" transform="translate(18 -1)" fill="#fff"/>
+                          <text id="CenterLogistic" transform="translate(90 49)" fill="#fff" font-size="15" font-family="PTSans-Bold, PT Sans" font-weight="700"><tspan x="0" y="0">CenterLogistic</tspan></text>
+                        </g>
+                    </svg>
+                </a>
+                
+                <nav class="nav">
+                    <a class="nav__link" href="./index.html">Home</a>
+                    <a class="nav__link active" href="./blog.html">Blog</a>
+                    <a class="nav__link" href="./text.html">Privacy Policy</a>
+                    <a class="nav__link" href="./terms.html">Tetms & Contidions</a>
+                </nav>
+
+                <button class="burger" type="button">
+                    <img class="burger__icon" src="./assets/images/burger.svg" alt="menu">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="intro intro--blog"></div>
+
+
+        <section class="blog">
+            <div class="container">
+                <div class="blog__wrapper">
+                    <div class="blog__content">
+                        <h1 class="blog__title"><span>Interesting</span> to read</h1>
+
+                        <div class="articles">
+                            <article class="news__article">
+                                <a href="#"><h3 class="article__title">News title</h3></a>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <time class="article__date" datetime="2022-09-12 21:09">12 September, 2022</time>
+                            </article>
+            
+                            <article class="news__article">
+                                <a href="#"><h3 class="article__title">News title</h3></a>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <time class="article__date" datetime="2022-09-12 21:09">12 September, 2022</time>
+                            </article>
+            
+                            <article class="news__article">
+                                <a href="#"><h3 class="article__title">News title</h3></a>
+                                <div class="article__text">
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <time class="article__date" datetime="2022-09-12 21:09">12 September, 2022</time>
+                            </article>
+                        </div>
+            
+                        <a class="btn news__btn btn--orange btn--shadow" href="./index.html">Back to home</a>
+                    </div>
+        
+                    <div class="blog__form">
+                        <div class="request-form request-form--right">
+                            <div class="request-form__header">
+                                <h3 class="request-form__title">Get Callback</h3>
+                                <p class="request-form__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                            </div>
+        
+                            <div class="request-form__content">
+                                <form class="form" action="/" method="post">
+                                    <div class="form__group">
+                                        <input class="input input--person" type="text" name="name" id="" placeholder="Your name">
+                                    </div>
+                                    <div class="form__group">
+                                        <input class="input input--phone" type="tel" name="tel" id="" placeholder="Your phone">
+                                    </div>
+                                    <div class="form__group">
+                                        <input class="input input--mail" type="email" name="email" id="" placeholder="Your e-mail">
+                                    </div>
+        
+                                    <button class="btn btn--block btn--orange" type="submit" data-modal-button-thanks>Call me back</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a class="footer__logo" href="#"><img src="./assets/images/logo-night.svg" alt="logo"></a>
+                <address class="footer__contacts">
+                    <p>New York, Street, ZIP code</p>
+                    <p>Call Us: <a href="tel:+9948373123">+9948373123</a> or <a href="mailto:hello@centerlogistic.com">hello@centerlogistic.com</a></p>
+                </address>
+
+                <nav class="footer__nav">
+                    <a class="footer__nav-link" href="#">Terms & Contidions</a>
+                    <a class="footer__nav-link" href="#">Privacy Policy</a>
+                    <a class="footer__nav-link" href="#">Privacy Policy</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
